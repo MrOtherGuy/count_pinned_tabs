@@ -1,0 +1,11 @@
+{
+   "description": "Adds a prefix to each window to count number of pinned tabs in it",
+	"author": "MrOtherGuy",
+  "manifest_version": 3,
+  "name": "Count Pinned Tabs",
+  "permissions": [],
+	"version": "0.0.5",
+	"background": {
+		"scripts": ["background-script.js"]
+	}
+}
