@@ -25,4 +25,5 @@ browser.tabs.onDetached.addListener((tabId, info) => {
 });
 
 // run once on startup
-markAllWindows();
+browser.runtime.onStartup.addListener(markAllWindows)
+
